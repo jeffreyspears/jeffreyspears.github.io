@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+
+header {
+    height: auto;
+}
+
+body {
+    background-color: white;
+}
+
+div {
+    display: block;
+    width: 200px;
+}
+
+.project_boxes {
+    height: 250px;
+    width: 100%;
+    flex: auto;
+}
+
+.project_1 {
+    height: 250px;
+    width: 40%;
+    margin: 30px;
+}
+
+.p_name_1 {
+    width: 40%;
+}
+
+.project_2 {
+    height: fit-content;
+    width: 40%;
+    margin: 30px;
+}
+
+.p_name_2 {
+    width: 40%;
+}
+
+
+p {
+    flex-wrap: wrap;
+    height: 250px;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+footer {
+    margin:-50px;
+}
